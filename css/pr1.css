@@ -4,27 +4,24 @@
 }
 .pimg1 {
     background-image: url("../Image/images1.jpg");
-    height: 100vh;
+    min-height: 600px;
+}
+.pimg1 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0px;
-    padding: 0px;
 }
 
 .border {
-    position: absolute;
-    text-align: center;
-    font-size: 27px;
-    letter-spacing: 8px;
-    color:#000;
-    top: 45%;
-    text-transform: uppercase;
-    font-family: "lato",sans-serif;
-    /* margin-left: 39%; */
-    opacity: 0.9;
+      
+      background-color: #111;
+      color: #fff;
+      padding: 20px;
 }
-
-h2 {
+.h2 {
   color: blue;
   font-size: 1.5rem;
   padding-top: 5px;
@@ -32,23 +29,22 @@ h2 {
   margin-top: 50px;
   font-family: "lato", sans-serif;
 }
-
 .section-light {
-    background-color: #f4f4f4;
+    background-color: #F4F4F4;
     color: #666;
 }
-
+.pimg2 {
+    background-image: url("../Image/images2.jpg");
+    min-height: 600px;
+}
 .pimg2 {
     position: relative;
-    padding-top: 160px;
-    background-image: url("../Image/images2.jpg");
-    height: 100vh;
+    opacity: 0.7;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0px;
-    /* padding: 0px; */
 }
-
 .ptext {
     position: absolute;
     top: 50%;
@@ -59,50 +55,47 @@ h2 {
     letter-spacing: 8px;
     text-transform: uppercase;
 }
-
 .ptext .border {
     padding:20px;
     background-color: #111;
     color: #fff;
 }
-
 .section-dark {
-    background-color: #282e34;
+    background-color: #282E34;
     color: #ddd;
 }
-
 .section {
     text-align: center;
     padding: 50px 80px;
 }
-
-
 .pimg3 {
-    padding-top: 160px;
     background-image: url("../Image/images3.jpg");
-    height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0px;
-    /* padding: 0px; */
+    min-height: 600px;
 }
-
+.pimg3 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .border-trans {
-    background-color: #282e34;
+    background-color: #282E34;
     color: #ddd;
 }
-
+.pimg4 {
+    background-image: url("../Image/images4.jpg");
+    min-height: 600px;
+}
 .pimg4 {
     position: relative;
-    padding-top: 160px;
-    background-image: url("../Image/images4.jpg");
-    height: 100vh;
+    opacity: 0.7;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0px;
-    /* padding: 0px; */
 }
-
 @media(max-width:568px){
     .background-1, .background-2, .background-3{
       background-attachment:scroll;
